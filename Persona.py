@@ -54,3 +54,5 @@ class Persona:
             print("Aquí está tu cerveza", self.nombre)
         else:
             print("Lo siento no puedes tomar", self.nombre)
+
+    

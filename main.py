@@ -1,4 +1,5 @@
 from Persona import Persona
+from Estudiante import Estudiante
 
 #Instancia de persona
 elena = Persona("Elena", "De Troya", "elena@codingdojo.com", 30, "Bootcamp Python")
@@ -46,4 +47,21 @@ elena.clase.agrega_calificacion(7)
 
 print(elena.clase.calificaciones)
 
+pedro = Estudiante("Pedro", "Páramo", "pedro@codingdojo.com", 30, "Bootcamp Python", 1234)
 
+print(pedro.id)
+
+pedro.codificar(100)
+
+print(pedro.lineas_codigo)
+
+pedro.cumpleaños()
+
+Persona.imprime_lista()
+
+Estudiante.imprime_lista()
+
+#elena.que_haces()
+pedro.que_haces()
+
+pedro.estudiar()
